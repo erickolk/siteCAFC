@@ -1,0 +1,109 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: var(--preto);
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --vermelhopadrao:#c24224;
+    --branco:#fff;
+    --preto:#333;
+
+
+}
+
+h1 {
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    /*background-image: url(/imagens/cabecalhoplanos.jpg);*/    
+    
+    
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 64px;
+    padding: 8px 60px 80px 60px;
+    border-radius: 50px;
+    font-size: 24px;
+    color: var(--branco);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 64px;
+    padding: 8px 60px 80px 60px;
+    border-radius: 50px;
+    font-size: 24px;
+    color: var(--branco);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card2 .beneficios-semestral {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1 .beneficios-anual {
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.planos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    
+    
+
+    
+
+}
+
+.card1 .btn-anual {
+    color: var(--vermelhopadrao);
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 28px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.card2 .btn-semestral {
+    
+    color: var(--vermelhopadrao);
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 28px;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.titulo-card {
+    display: flex;
+    text-shadow: 0.1em 0.1em 0.2em #c24224;
+    font-size: 45px;
+    justify-content: center;
+}

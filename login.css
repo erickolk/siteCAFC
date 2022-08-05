@@ -1,0 +1,199 @@
+.imglogo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    
+
+}
+
+.imglogo img {
+    width: 18%;
+    
+}
+
+.textlogo {
+    font-size: 10px;
+    color: #c24224;
+}
+
+h1{
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 2px;
+    
+    
+    
+}
+
+.part2 {
+    display: inline-block;
+    color: #fff;    
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2px;
+
+    
+}
+.part3 {
+    display: inline-block;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #333;
+    
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+    background-color: rgba(19, 19, 19, 0.3);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 65px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -3.8px;
+
+    margin-left: -2px;
+
+}
+
+.card-content label {
+
+    
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+          
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #c24224;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
